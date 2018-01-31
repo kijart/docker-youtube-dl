@@ -18,9 +18,24 @@ Docker documentation: https://docs.docker.com/
 
 - list youtube-dl options: `docker run youtube-dl --help`
 
-- download a video: `docker run -v $(pwd):/media youtube-dl https://www.youtube.com/watch?v=JYwUUDdYi9I`
+- download a video: `docker run --rm -v $(pwd):/media youtube-dl https://www.youtube.com/watch?v=JYwUUDdYi9I`
 
-- docker run youtube-dl https://www.youtube.com/watch?v=JYwUUDdYi9I
+## Pull docker image from docker hub
+
+`docker pull kijart/youtube-dl`
+
+## Download a video using docker image
+
+`docker run --rm -v $(pwd):/media kijart/youtube-dl https://www.youtube.com/watch\?v\=JYwUUDdYi9I`
+
+## Create docker container
+
+```
+docker create \
+  --name=youtube-dl \
+  -v <path to data>:/media \
+  kijart/youtube-dl
+```
 
 ## More info
 
