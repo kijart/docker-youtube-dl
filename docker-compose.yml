@@ -1,0 +1,6 @@
+version: '3'
+services:
+  youtube-dl:
+    image: "kijart/youtube-dl"
+    volumes:
+      - .:/media
