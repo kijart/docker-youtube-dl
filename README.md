@@ -45,4 +45,6 @@ docker create \
 
 ## More info
 
+- _youtube-dl.conf_ configuration file can be updated before build/rebuild the docker image: [youtube-dl configuration file options](https://github.com/rg3/youtube-dl#configuration)
+
 - youtube-dl command-line [options documentation](https://github.com/rg3/youtube-dl#options)
