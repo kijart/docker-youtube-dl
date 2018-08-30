@@ -18,7 +18,7 @@ Docker documentation: https://docs.docker.com/
 
 - build docker image `docker build -t youtube-dl .`
 
-- list youtube-dl options: `docker run youtube-dl --help`
+- list youtube-dl options: `docker run --rm youtube-dl --help`
 
 - download a video: `docker run --rm -v $(pwd):/media youtube-dl https://www.youtube.com/watch?v=JYwUUDdYi9I`
 
@@ -41,7 +41,7 @@ docker create \
 
 - create a container using docker-compose: `docker-compose up --no-start`
 
-- download a video using docker compose: `docker-compose run youtube-dl https://www.youtube.com/watch\?v\=JYwUUDdYi9I`
+- download a video using docker compose: `docker-compose run --rm youtube-dl https://www.youtube.com/watch\?v\=JYwUUDdYi9I`
 
 ## More info
 
