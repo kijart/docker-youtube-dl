@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kijart/docker-youtube-dl.svg?branch=master)](https://travis-ci.org/kijart/docker-youtube-dl) [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl) [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl)
+[![Build Status](https://travis-ci.org/kijart/docker-youtube-dl.svg?branch=develop)](https://travis-ci.org/kijart/docker-youtube-dl) [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl) [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl)
 
 # youtube-dl
 
