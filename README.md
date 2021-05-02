@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kijart/docker-youtube-dl.svg?branch=develop)](https://travis-ci.org/kijart/docker-youtube-dl) [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl)
+[![Publish Docker image](https://github.com/kijart/docker-youtube-dl/actions/workflows/docker-hub-image-publish.yml/badge.svg)](https://github.com/kijart/docker-youtube-dl/actions/workflows/docker-hub-image-publish.yml) [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl)
 
 # youtube-dl
 
@@ -10,11 +10,11 @@ Docker image generated daily with the latest version of **Alpine Linux** and **y
 
 ## Docker setup
 
-Install docker: https://docs.docker.com/engine/installation/
+Install docker: <https://docs.docker.com/engine/installation/>
 
-Install docker compose: https://docs.docker.com/compose/install/
+Install docker compose: <https://docs.docker.com/compose/install/>
 
-Docker documentation: https://docs.docker.com/
+Docker documentation: <https://docs.docker.com/>
 
 ## Usage
 
