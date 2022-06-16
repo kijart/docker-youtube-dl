@@ -2,8 +2,11 @@ FROM python:3-alpine
 
 LABEL maintainer="Luis Miguel Vicente Fuentes"
 
-RUN pip install --upgrade pip
-RUN pip install youtube_dl
+RUN apk add --no-cache \
+    ca-certificates \
+    ffmpeg \
+    openssl \
+    aria2
 
 COPY ./youtube-dl.conf /etc/youtube-dl.conf
 
