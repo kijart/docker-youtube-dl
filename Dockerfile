@@ -8,6 +8,9 @@ RUN apk add --no-cache \
     openssl \
     aria2
 
+RUN pip install --upgrade pip && \
+    pip install youtube-dl
+
 COPY ./youtube-dl.conf /etc/youtube-dl.conf
 
 WORKDIR /media
