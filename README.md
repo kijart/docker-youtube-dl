@@ -1,4 +1,6 @@
-[![Publish Docker image](https://github.com/kijart/docker-youtube-dl/actions/workflows/docker-hub-image-publish.yml/badge.svg)](https://github.com/kijart/docker-youtube-dl/actions/workflows/docker-hub-image-publish.yml) [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kijart/youtube-dl.svg)](https://hub.docker.com/r/kijart/youtube-dl)
+[![Docker Hub](https://img.shields.io/badge/dockerhub-images-success.svg?logo=Docker&style=plastic)](https://hub.docker.com/r/kijart/youtube-dl)
+![Docker Pulls](https://img.shields.io/docker/pulls/kijart/youtube-dl?style=plastic)
+[![Publish Docker image](https://github.com/kijart/docker-youtube-dl/actions/workflows/docker-hub-image-publish.yml/badge.svg)](https://github.com/kijart/docker-youtube-dl/actions/workflows/docker-hub-image-publish.yml)
 
 # youtube-dl
 
